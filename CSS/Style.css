@@ -1,0 +1,693 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+html {
+  width: 100vw;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  margin: auto;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  max-width: 1440px;
+  height: 100vh;
+}
+
+/* NAVBAR 
+========================================================================== */
+
+.logo img {
+  width: 100px;
+  height: 45px;
+}
+header {
+  height: 100px;
+  padding-bottom: 25px;
+}
+
+header nav div img {
+  float: left;
+  padding: 40px 0 0 50px;
+}
+
+header nav a {
+  display: flex;
+  float: right;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+header nav a:hover {
+  color: #3786fd;
+  border-top: 2px solid #3786fd;
+}
+
+/* RECHERCHE
+========================================================================== */
+
+.container-header {
+  margin: 0 40px 10px 40px;
+
+  height: 280px;
+}
+.research h3 {
+  padding-left: 10px;
+  margin: -10px;
+  font-size: 22px;
+}
+.research p {
+  position: relative;
+  font-size: 15px;
+  bottom: 5px;
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+}
+
+.icontainer {
+  display: flex;
+  position: relative;
+  left: 2px;
+  height: 48px;
+  width: 50px;
+  border: 1px solid #f2f2f2;
+  border-radius: 15px 0 0 15px;
+  background-color: #f2f2f2;
+}
+.icontainer i {
+  font-size: 17px;
+  margin: auto;
+}
+
+#marseille {
+  height: 46px;
+  width: 210px;
+  border: 1px solid #f2f2f2;
+  border-radius: 3px;
+  font-weight: bolder;
+  font-size: 17px;
+  padding-left: 15px;
+}
+
+.button-r {
+  position: relative;
+  right: 2px;
+  color: #fff;
+  background-color: #0065fc;
+  height: 50px;
+  width: 130px;
+  border: 0px solid #f2f2f2;
+  border-radius: 0 15px 15px 0;
+  font-size: 17px;
+}
+.button-logo {
+  display: none;
+  color: #fff;
+  background-color: #0065fc;
+  font-family: "Radio Canada", sans-serif;
+  height: 45px;
+  width: 45px;
+  border: 0px solid #f2f2f2;
+  border-radius: 0 15px 15px 0;
+  font-size: 15px;
+}
+
+/* FILTRES 
+    ========================================================================== */
+
+.filters {
+  padding-left: 10px;
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.filters p {
+  font-size: 18px;
+}
+
+.filter {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.filters input {
+  margin: 0 10px 0 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.filters input:hover {
+  color: #0065fc;
+}
+
+.icon-container {
+  box-sizing: border-box;
+  border-radius: 30px;
+  box-shadow: inset 0 0 0 2px #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-container input {
+  position: relative;
+  right: 5px;
+}
+.icon {
+  color: #0065fc;
+  display: flex;
+  height: 45px;
+  width: 45px;
+  border: 2px solid #deebff;
+  border-radius: 30px;
+  background-color: #deebff;
+}
+
+.icon-container i {
+  font-size: 17px;
+  margin: auto;
+}
+
+/* INFO 
+========================================================================== */
+
+.info {
+  display: flex;
+  position: relative;
+  padding-left: 10px;
+  top: 20px;
+  gap: 10px;
+  align-items: center;
+}
+.info p {
+  padding-top: 3px;
+  font-size: 15px;
+}
+
+.info i {
+  display: flex;
+  margin: auto;
+  position: relative;
+  left: 0.5px;
+  bottom: 0.5px;
+  font-size: 13px;
+  font-weight: bolder;
+  color: #0065fc;
+}
+.infocontainer {
+  display: flex;
+  height: 40px;
+  width: 40px;
+}
+
+.info-icon {
+  display: flex;
+  height: 22px;
+  width: 22px;
+  border: 1px solid #e4e4e4;
+  border-radius: 50px;
+}
+
+/* MAIN 
+========================================================================== */
+
+.main {
+  width: 96%;
+  display: flex;
+  margin: 0 40px 0 40px;
+  min-height: 650px;
+  background-color: #ffffff;
+  margin-bottom: 40px;
+}
+
+/* CONTAINER 1
+========================================================================== */
+
+.main-container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 3%;
+  min-height: 610px;
+  width: 64%;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+
+.marseille-pos h3 {
+  position: relative;
+  right: 5px;
+  padding: 0;
+  width: 100%;
+  margin: 50px 0 0 50px;
+  font-size: 20px;
+}
+
+h4 {
+  display: flex;
+}
+
+.card-container {
+  display: flex;
+  position: relative;
+  margin: 0 15px 0 15px;
+  overflow: hidden;
+  width: 235px;
+  height: 190px;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgb(207, 207, 207);
+  overflow: hidden;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.card-container h3 {
+  padding-left: 15px;
+  margin: -10px;
+  width: 100%;
+  font-size: 17px;
+}
+
+.card-container p {
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.little-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 75%;
+  background-color: #f2f2f2;
+  justify-content: center;
+  bottom: 50px;
+}
+
+.card-header img {
+  position: absolute;
+  top: -25px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text {
+  padding: 10px 0 0 10px;
+  position: absolute;
+  bottom: 0px;
+  background-color: #fff;
+  width: 100%;
+  height: 30%;
+}
+
+.stars {
+  display: flex;
+  position: relative;
+  bottom: 13px;
+  color: #0065fc;
+  font-size: 12px;
+}
+
+.text p {
+  font-size: 14px;
+  position: relative;
+  bottom: 6px;
+}
+
+.text h3 {
+  position: relative;
+  left: -5px;
+  top: 5px;
+}
+
+.grey-stars {
+  color: #e4e4e4;
+  font-size: 12px;
+}
+
+.display p {
+  position: relative;
+  margin: 0 0 30px 45px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.display a {
+  text-decoration: none;
+  color: black;
+}
+
+/* CONTAINER 2 
+========================================================================== */
+
+.main-container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 31%;
+  gap: 25px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+
+.header {
+  display: flex;
+  margin: 5% 0 0 0;
+  width: 100%;
+}
+.populaires-pos {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.black-star {
+  display: flex;
+  position: relative;
+  top: 8px;
+  right: 30px;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.card-container-2 {
+  position: relative;
+  bottom: 45px;
+  margin: 10px 35px 0;
+  width: 80%;
+  height: 130px;
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  box-shadow: 5px 3px 15px rgb(207, 207, 207);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.card-container-2:hover {
+  transform: scale(1.05);
+}
+
+.card-container-2 img {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  border-radius: 20px;
+  left: -25px;
+  object-fit: cover;
+}
+
+.image {
+  width: 50%;
+}
+
+.text-2 {
+  position: absolute;
+  flex-wrap: wrap;
+  margin-left: 35%;
+  height: 100%;
+  width: 65%;
+  background-color: #fff;
+}
+
+.text-2 p,
+h3 {
+  display: flex;
+  position: relative;
+  bottom: 10px;
+  width: 70%;
+  display: flex;
+  padding-left: 8%;
+}
+
+.text-2 h3 {
+  font-size: 17px;
+}
+
+.text-2 p {
+  position: relative;
+  bottom: 20px;
+  font-size: 14px;
+}
+
+.stars-2 {
+  position: absolute;
+  gap: 1px;
+  bottom: 10px;
+  left: 8%;
+  display: flex;
+  font-size: 11px;
+  color: #0065fc;
+}
+
+.grey-stars-2 {
+  color: #e4e4e4;
+}
+
+/* ACTIVITIES
+========================================================================== */
+
+.Activities-container {
+  display: flex;
+  column-gap: 54px;
+  width: 100vw;
+  height: 450px;
+  margin: 0 40px 70px 35px;
+}
+
+.activity-marseille {
+  position: relative;
+  top: 10px;
+  left: 5px;
+  margin: 20px;
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+}
+
+.activity-marseille h3 {
+  padding-left: 15px;
+}
+
+.card-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  height: 100%;
+}
+
+/* Vieux Port 
+========================================================================== */
+
+.activity-card-1 {
+  position: relative;
+  height: 100%;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgb(225, 225, 225);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.activity-card-1:hover {
+  transform: scale(1.05);
+}
+
+.activity-card-1 img {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  object-fit: cover;
+}
+
+/* Fort de Pomègues 
+========================================================================== */
+
+.activity-card-2 {
+  position: relative;
+  height: 50%;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgb(225, 225, 225);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.activity-card-2:hover {
+  transform: scale(1.05);
+}
+
+.activity-card-2 img {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  bottom: 100px;
+  object-fit: cover;
+}
+
+/* Îles du frioul 
+========================================================================== */
+
+.activity-card-3 {
+  position: relative;
+  height: 40%;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgb(225, 225, 225);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.activity-card-3:hover {
+  transform: scale(1.05);
+}
+
+.activity-card-3 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Parc Nationnal des Calanques 
+========================================================================== */
+
+.activity-card-4 {
+  position: relative;
+  height: 100%;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgb(225, 225, 225);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.activity-card-4:hover {
+  transform: scale(1.05);
+}
+
+.activity-card-4 img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Notre-Dame de la Garde 
+========================================================================== */
+
+.activity-card-5 {
+  position: relative;
+  height: 45%;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgb(225, 225, 225);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.activity-card-5:hover {
+  transform: scale(1.05);
+}
+
+.activity-card-5 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Parc Longchamps 
+========================================================================== */
+
+.activity-card-6 {
+  position: relative;
+  height: 45%;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgb(225, 225, 225);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.activity-card-6:hover {
+  transform: scale(1.05);
+}
+
+.activity-card-6 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.activity-card-header {
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+/* FOOTER DES CARTES 
+========================================================================== */
+
+.activity-card-text {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  bottom: 0;
+  border-radius: 0 0 20px 20px;
+}
+
+.activity-card-text h3 {
+  font-size: 15px;
+  margin: 0;
+  right: 5px;
+  top: 17px;
+  align-items: center;
+}
+
+/* FOOTER
+========================================================================== */
+
+footer {
+  display: flex;
+  padding: 20px 0 0 40px;
+  gap: 265px;
+  width: 97%;
+  height: 200px;
+  background-color: #f2f2f2;
+}
+
+footer h4 {
+  font-size: 18px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+@media all and (max-width: 1346px) {
+  .main {
+    height: 850px;
+  }
+}

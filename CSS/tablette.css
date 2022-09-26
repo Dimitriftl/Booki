@@ -1,0 +1,382 @@
+@media all and (min-width: 769px ) and (max-width: 992px)
+
+{
+    html, body {
+        font-family: 'Raleway', sans-serif;
+        overflow-x: hidden;
+        width: 100%;
+        padding: 0;
+        flex-wrap: wrap;
+      } 
+      nav {
+        flex-wrap: wrap;
+      }
+      .logo {
+        display: flex;
+        position: relative;
+        width: 100%;
+        flex-wrap: wrap;
+      }
+      .logo img {
+        position: relative;
+        bottom: 20px;
+        right: 10px;
+        margin: auto;
+        float: none;
+      }
+    
+      /* ONGLETS ========================================================================== */
+    
+      .onglets {
+        flex-direction: row-reverse;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+      }
+      .container-header {
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+        margin: 0 0px 0 20px;
+      }
+    
+      header nav a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 50%;
+        padding: 0;
+        border-bottom: 3px solid #e4e4e4;
+        border-top: none;
+      }
+    
+      header nav a:hover {
+        color: #3786fd;
+        border-bottom: 3px solid #3786fd;
+        border-top: none;
+        width: auto;
+        height: 100%;
+        width: 50%;
+      }
+    
+     /* ========================================================================== */
+    
+      .research {
+        width: 100%;
+      }
+
+      .research h3 {
+        justify-content: center;
+        position: relative;
+        bottom: 20px;
+        width: 100%;
+        padding-top: 70px;
+        font-size: 21px;
+      }
+
+      .research p {
+        padding-left: 30%;
+        width: 100%;
+        bottom: 15px;
+        font-size: 17px;
+      }
+    
+      /* RECHERCHE ========================================================================== */
+    
+      form {
+        justify-content: center;
+        position: relative;
+        bottom: 5px;
+        width: 100%;
+      }
+
+      #marseille {
+        width: 240px;
+        height: 45px;
+      }
+    
+      .icontainer {
+        height: 49px;
+        position: relative;
+        left: 1px;
+      }
+    
+      .button-logo {
+        display: none;
+        position: relative;
+        right: 20px;
+        color: #fff;
+        background-color: #0065fc;
+        font-family: "Radio Canada", sans-serif;
+        height: 50px;
+        width: 50px;
+        border: 0px solid #f2f2f2;
+        border-radius: 15px;
+        font-size: 17px;
+      }
+      .button-logo i {
+        margin: auto;
+      }
+    
+      
+      /* FILTRES ========================================================================== */
+    
+      .filters {
+        display: flex;
+        padding-left: 0;
+        height: 10px;
+        flex-wrap: wrap;
+        gap: 10px;
+        
+      }
+      
+    
+      .filters input{
+        font-size: 14px;
+      }
+      /* INFO ========================================================================== */
+      
+      .info{
+        position: relative;
+        top: 50px;
+        padding: 0 10px 0 0;
+      }
+      .info-icon{
+        position: relative;
+        width: 22px;
+        height: 22px;
+      }
+      .info i{
+        width: 40px;
+        justify-content: center;
+        font-size: 12px;
+      }
+    
+      .info p{
+        font-size: 16px;
+      }
+    
+      /* Main ========================================================================== */
+    
+      .main {
+        height: 800px;
+        width: 550px;
+        margin: 0px 0 0 0;
+        position: relative;
+        bottom: 50px;
+        flex-direction: column-reverse;
+      }
+    
+    /* CONTAINER-1 ========================================================================== */
+      
+      .main-container-1 {
+        flex-direction: column;
+        width: 100vw;
+        padding: 0 60px 0 20px;
+        background-color: #fff;
+        justify-content: center;
+        
+      }
+      .little-container{
+        position: relative;
+        right: 20px;
+        background-color: #fff;
+        width: 100%;
+        justify-content: center;
+      }
+    
+      .marseille-pos h3{
+        position: relative;
+        bottom: 80px;
+        margin: 100px 0 0 25px;
+        font-size: 25px;
+      }
+      .card-container{
+        position: relative;
+        width: 44%;
+        height: 200px;
+        margin-bottom: 10px;
+        box-shadow: 5px 5px 10px rgb(228, 228, 228);
+      }
+    
+      .card-container h3{
+        font-size: 15px ;
+      }
+    
+      .text{
+        height: 30%;
+        padding: 10px 0 0 10px;
+        bottom: 5px;
+      }
+    
+      .text  h3{
+        position: relative;
+        top: 10px;
+      }
+      .text p{
+        position: relative;
+        bottom: 2px;
+        font-size: 14px;
+      }
+    
+      .stars{
+        position: relative;
+        font-size: 11px;
+        bottom: 10px;
+        
+      }
+    
+    /* AFFICHER 
+    ========================================================================== */
+    
+      .display p{
+        position: relative;
+        top: 200px;
+        margin: 0 0 30px 20px;
+        font-size: 20px;
+      }
+    
+      /* CONTAINER-2 ========================================================================== */
+    
+      .main-container-2 {
+        width: 100vw;
+        border-radius: 0;
+        min-height: 270px;
+        gap: 30px;
+        justify-content: center;
+      }
+    
+      .populaires-pos{
+        position: relative;
+        bottom: 40px;
+        right: 50px;
+        font-size: 20px;
+      }
+
+      .black-star {
+        position: relative;
+        bottom: 10px;
+      }
+    
+      .card-container-2 {
+        position: relative;
+        bottom: 70px;
+        width: 28%;
+        height: 130px;
+        margin: 0;
+      }
+    
+    .text-2{
+      margin-left: 38%;
+      width: 62%;
+    }
+    
+      .card-container-2 h3{
+        font-size: 16px;
+        width: 90%;
+      }
+      .card-container-2 p{
+        font-size: 13px;
+        width: 100%;
+      }
+      .etoiles-2{
+        font-size: 10px;
+      }
+    
+    
+    /* ACTIVITIES-CONTAINER ========================================================================== */
+  
+    
+      .activity-marseille{
+        position: relative;
+        top:170px;
+      }
+    
+      .activity-marseille h3{
+        position: relative;
+        top: 10px;
+        padding-left: 0;
+        font-size: 22px;
+        width: 100%;
+      }
+    
+      .Activities-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        right: 30px;
+        height: 500px;
+        width: 99%;
+        margin : 200px 0 0 0; 
+        padding: 20px 30px 0 50px;
+        gap: 30px;
+      }
+    
+    /* ACTIVITY CARD ========================================================================== */
+    
+    
+    .card-column{
+      flex-direction: column ;
+      gap: 30px;
+      height: 100px;
+    }
+    
+      .activity-card-1 {
+        width: 45%;
+        height: 230px;
+        
+      }
+    
+      .activity-card-2 {
+        width: 92%;
+        height: 230px;
+        
+      }
+    
+      .activity-card-3 {
+        width: 92%;
+        height: 230px;
+        
+      }
+    
+      .activity-card-4 {
+        width: 45%;
+        height: 230px;
+        
+      }
+
+      .activity-card-4 h3 { 
+        width: 92%;
+
+      }
+    
+      .activity-card-5 {
+        width: 92%;
+        height: 230px;
+        
+      }
+    
+      .activity-card-6 {
+        width: 92%;
+        min-width: 200px;
+        height: 230px;
+        
+      }
+    
+      /* FOOTER ========================================================================== */
+    
+      footer{
+        width: 95%;
+        display: flex;
+        margin: 280px 30px 0 0 ;
+        padding: 0 20px 0 20px;
+        position: relative;
+        height: 200px;
+        gap: 180px;
+      }
+    }
+    

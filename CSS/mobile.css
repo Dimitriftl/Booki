@@ -1,0 +1,390 @@
+
+/* MOBILE */
+@media all and (max-width: 768px) {
+
+  
+  html, body {
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+    padding: 0;
+    flex-wrap: wrap;
+  } 
+
+  nav {
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .logo img {
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    margin: auto;
+    float: none;
+  }
+
+  /* ONGLETS ========================================================================== */
+
+  .onglets {
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+  }
+  
+  .container-header {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    margin: 0 0px 0 20px;
+  }
+
+  header nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    padding: 0;
+    border-bottom: 3px solid #e4e4e4;
+    border-top: none;
+  }
+
+  header nav a:hover {
+    color: #3786fd;
+    border-bottom: 3px solid #3786fd;
+    border-top: none;
+    width: auto;
+    height: 100%;
+    width: 50%;
+  }
+
+ /* ========================================================================== */
+
+  .research {
+    padding-right: 35px;
+  }
+
+  .research h3 {
+    position: relative;
+    bottom: 20px;
+    font-size: 23px;
+
+  }
+  .research p {
+    position: relative;
+    bottom: 15px;
+    font-size: 16px;
+  }
+
+  /* RECHERCHE ========================================================================== */
+
+  form {
+    width: 350px;
+  }
+  #marseille {
+    width: 240px;
+    height: 45px;
+  }
+
+  .icontainer {
+    height: 49px;
+    position: relative;
+    left: 1px;
+  }
+
+  .button-r {
+    display: none;
+  }
+
+  .button-logo {
+    display: flex;
+    position: relative;
+    right: 20px;
+    color: #fff;
+    background-color: #0065fc;
+    height: 50px;
+    width: 50px;
+    border: 0px solid #f2f2f2;
+    border-radius: 15px;
+    font-size: 17px;
+  }
+
+  .button-logo i {
+    margin: auto;
+  }
+
+  .research h3 {
+    padding-top: 70px;
+    width: 100%;
+  }
+  /* FILTRES ========================================================================== */
+
+  .filters {
+    display: flex;
+    position: relative;
+    bottom: 10px;
+    padding-left: 0;
+    height: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+  }
+  .filters p {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+
+  .filters input{
+    font-size: 14px;
+  }
+
+  /* INFO ========================================================================== */
+  
+  .info{
+    position: relative;
+    top: 205px;
+    padding: 0 10px 0 0;
+  }
+  .info-icon{
+    position: relative;
+    bottom: 10px;
+    width: 22px;
+    height: 22px;
+  }
+  .info i{
+    width: 40px;
+    justify-content: center;
+    font-size: 12px;
+  }
+
+  .info p{
+    font-size: 16px;
+  }
+
+  /* Main ========================================================================== */
+
+  .main {
+    height: 1200px;
+    width: 550px;
+    margin: 90px 0 0 0;
+    position: relative;
+    flex-direction: column-reverse;
+  }
+
+/* CONTAINER-1 ========================================================================== */
+  
+  .main-container-1 {
+    flex-direction: column;
+    min-height: 610px ;
+    width: 100vw;
+    gap: 10px;
+    background-color: #fff;
+    justify-content: center;
+  }
+  .little-container{
+    background-color: #fff;
+  }
+
+  .marseille-pos h3{
+    margin: 40px 0 0 25px;
+    font-size: 21px;
+  }
+  .card-container{
+    width: 87%;
+    height: 180px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px rgb(228, 228, 228);
+    margin-left: 15px;
+  }
+
+  .card-container h3{
+    font-size: 15px ;
+  }
+
+  .text{
+    height: 30%;
+    padding: 10px 0 0 10px;
+    bottom: 5px;
+  }
+
+  .text  h3{
+    position: relative;
+    top: 10px;
+  }
+  .text p{
+    position: relative;
+    bottom: 2px;
+    font-size: 14px;
+  }
+
+  .stars{
+    position: relative;
+    font-size: 11px;
+    bottom: 10px;
+    
+  }
+
+/* AFFICHER 
+========================================================================== */
+
+  .display p{
+    position: relative;
+    left: 5px;
+    top: 745px;
+    margin: 0 0 30px 20px;
+    font-size: 17px;
+  }
+
+  /* CONTAINER-2 ========================================================================== */
+
+  .main-container-2 {
+    width: 100vw;
+    justify-content: center;
+    border-radius: 0;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    gap: 10px;
+  }
+
+  .populaires-pos{
+    position: relative;
+    bottom: -10px;
+    right: 10px;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .black-star{
+    position: relative;
+    right: 10px;
+    top: 3px;
+  }
+
+  .card-container-2 {
+    justify-content: center;
+    position: relative;
+    width: 87%;
+    height: 130px;
+    margin: 0 10px 0 20px;
+  }
+
+.text-2{
+  margin-left: 38%;
+  width: 62%;
+}
+
+  .card-container-2 h3{
+    font-size: 16px;
+  }
+  .card-container-2 p{
+    font-size: 14px;
+  }
+  .etoiles-2{
+    font-size: 10px;
+  }
+
+
+/* ACTIVITIES-CONTAINER ========================================================================== */
+
+
+  .activity-marseille{
+    position: relative;
+    top:750px;
+  }
+
+  .activity-marseille h3{
+    padding-left: 0;
+    font-size: 22px;
+  }
+
+  .Activities-container{
+    flex-direction: column;
+    margin: 765px 0 0 0;
+    padding: 0;
+    height: 1300px;
+  }
+
+/* ACTIVITY CARD ========================================================================== */
+
+.Activities-container{
+  gap: 25px;
+  height: 1200px;
+}
+
+.card-column{
+  gap: 25px;
+}
+
+  .activity-card-1 {
+    position: relative;
+    left: 21px;
+    height: 180px;
+    width: 89%;
+  }
+
+  .activity-card-2 {
+    position: relative;
+    left: 21px;
+    height: 180px;
+    width: 89%;
+  }
+
+  .activity-card-3 {
+    position: relative;
+    left: 21px;
+    height: 180px;
+    width: 89%;
+  }
+
+  .activity-card-4 {
+    position: relative;
+    left: 21px;
+    height: 180px;
+    width: 89%;
+  }
+
+  .activity-card-5 {
+    position: relative;
+    left: 21px;
+    height: 180px;
+    width: 89%;
+  }
+
+  .activity-card-6 {
+    position: relative;
+    left: 21px;
+    height: 180px;
+    width: 88%;
+  }
+
+  /* FOOTER ========================================================================== */
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    height: 530px;
+    gap: 30px;
+    margin-top: 60px;
+  }
+
+  footer h4 {
+    position: relative;
+    right: 10px;
+  }
+
+  footer p {
+    position: relative;
+    right: 10px;
+  }
+
+}
